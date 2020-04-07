@@ -1,4 +1,4 @@
-# displaying prime numbers
+
 def isprime(x):
     p=0
     for n in range (2,x):
@@ -7,7 +7,7 @@ def isprime(x):
     if p>=1:
         return False
     else:
-        return True        
+        return True
 
 n=int(input("how many primes you want to print?\n-->"))
 primesList=[]
@@ -21,16 +21,5 @@ while primes!=n:
             if primes == n:
                 break
     f *=2 
-for i in primesList:
-    print(i) 
+print(primesList)
 
-
-# extra
-# fermates little theorem
-def is_prime2(x):
-		if x==2:
-			return True
-		elif 2**(x-1) %x != 1:
-			return False
-		else:
-			return True

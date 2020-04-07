@@ -8,6 +8,19 @@ def lcm_calc(a,b,c,d):
     return lcm
 print(lcm_calc(25,34,78,90))
 
+# method 2
+def lcm(x,y):
+	if x>y:
+		greater=x
+	else:
+		greater=y
+	while True:
+		if greater%x==0 and greater%y==0:
+			lcm=greater
+			break
+		greater+=1
+	return lcm
+
 # how to calculate GCD?
 import math
 print(math.gcd(23,78))
