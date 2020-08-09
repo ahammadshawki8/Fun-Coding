@@ -1,4 +1,4 @@
-![poster](https://github.com/ahammadshawki8/Fun-Coding/blob/master/fun_coding.jpg)
+![poster](https://github.com/ahammadshawki8/Fun-Coding/blob/master/fun.jpg)
 
 # Code for Fun, Program for Fun :D
 We always find different types of equation or function in our textbooks or internet. But sometimes, we don't understand where, when and how to apply them.
